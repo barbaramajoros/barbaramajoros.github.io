@@ -1,0 +1,84 @@
+body {
+    background-image: url("../assets/topography.png");
+    background-position: top top;
+    background-repeat: repeat;
+
+    font-family: 'Montserrat';
+    line-height: 30px;
+}
+
+header {
+    background-color: #333333;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.title {
+    color: #ff0099;
+}
+
+a {
+    color: #ff0099;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    color: whitesmoke;
+}
+
+a:hover {
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+
+.logo {
+    float: left;
+    display: block;
+    line-height: 30px;
+    padding: 0 10%;
+    padding-top: 20px;
+}
+
+.nav {
+    text-align: right;
+    padding: 20px 10%;
+}
+
+.name {
+    text-align: left;
+    font-weight: bold;
+}
+
+@keyframes megjelenes {
+    from {opacity: 0.1;}
+    to {opacity: 1;}
+}
+
+.content {
+    padding: 10%;
+    animation-name: megjelenes;
+    animation-duration: 3s;
+}
+
+.elvalaszto {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    border: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 20px 0px 0px 0px;
+}
